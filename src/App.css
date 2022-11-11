@@ -1,38 +1,96 @@
 .App {
-  text-align: center;
+   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+   height: 40vmin;
+   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+   background-color: black;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: #db545a;
 }
 
-.App-link {
-  color: #61dafb;
+.u-image,
+.u-background-effect-image,
+.u-video-poster {
+   object-fit: cover;
+   display: block;
+   background-size: cover;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.u-image-circle,
+.u-image {
+   border-radius: 50% !important;
+}
+
+.u-section-1,
+.u-image-1 {
+   width: 386px;
+   height: 386px;
+   background-position: 20% 50%;
+   margin: 31px auto 0;
+}
+
+.u-align-justify {
+   text-align: justify;
+}
+
+.u-text {
+   word-wrap: break-word;
+   position: relative;
+}
+
+.u-text-grey-40 {
+   color: #999999;
+}
+
+.u-section-1,
+.u-text-3 {
+   font-weight: 300;
+   line-height: 1.8;
+   width: 739px;
+   margin: 20px auto 0;
+}
+
+.u-section-1,
+.u-text-1 {
+   font-size: 4.5rem;
+   margin: 110px auto 0;
+}
+
+.u-font-merriweather,
+.u-custom-font {
+   font-family: Merriweather, serif !important;
+}
+
+.u-text-palette-2-base {
+   color: #db545a !important;
+}
+
+.u-text-default {
+   display: table;
+   align-self: flex-start;
+   width: 100%;
+}
+
+.u-social-icons,
+.u-social-url,
+.u-social-icons,
+.u-social-url:hover {
+   color: currentColor;
+}
+
+.u-spacing-31 {
+   margin-top: 32px;
+   margin-bottom: 32px;
 }
