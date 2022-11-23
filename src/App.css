@@ -1,3 +1,4 @@
+/*Default Css*/
 .App {
    text-align: center;
 }
@@ -18,6 +19,7 @@
    color: #db545a;
 }
 
+/*photo*/
 .u-image,
 .u-background-effect-image,
 .u-video-poster {
@@ -40,7 +42,7 @@
    background-position: 20% 50%;
    margin: 31px auto 0;
 }
-
+/*paragraph*/
 .u-align-justify {
    text-align: justify;
 }
@@ -61,7 +63,7 @@
    width: 739px;
    margin: 20px auto 0;
 }
-
+/*Title*/
 .u-section-1,
 .u-text-1 {
    font-size: 4.5rem;
@@ -82,7 +84,7 @@
    align-self: flex-start;
    width: 100%;
 }
-
+/*icons*/
 .u-social-icons,
 .u-social-url,
 .u-social-icons,
@@ -93,4 +95,16 @@
 .u-spacing-31 {
    margin-top: 32px;
    margin-bottom: 32px;
+}
+
+.u-social-icons {
+   display: flex;
+}
+
+.u-section-1,
+.u-social-icons-1 {
+   height: 50px;
+   min-height: 16px;
+   min-width: 110px;
+   margin: 31px auto 41px;
 }
