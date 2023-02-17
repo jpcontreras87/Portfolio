@@ -19,6 +19,10 @@
    color: #db545a;
 }
 
+a {
+   color: #db545a;
+}
+
 /*photo*/
 .u-image,
 .u-background-effect-image,
@@ -85,26 +89,108 @@
    width: 100%;
 }
 /*icons*/
-.u-social-icons,
-.u-social-url,
-.u-social-icons,
-.u-social-url:hover {
-   color: currentColor;
+.icons {
+   width: 60px;
+   padding-bottom: 10px;
+}
+/*View Portfolio*/
+.portfolio-table {
+   padding: 30px;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-top: 1px solid #db545a;
 }
 
-.u-spacing-31 {
-   margin-top: 32px;
-   margin-bottom: 32px;
+.portfolio-1 {
+   font-size: 3rem;
+   line-height: 1.6;
+   width: 795px;
+   font-weight: 700;
+   margin: 51px auto 0px;
+   text-align: center;
 }
 
-.u-social-icons {
-   display: flex;
+.portfolio-2 {
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 700;
+   font-family: sans-serif;
+   text-align: center;
 }
 
-.u-section-1,
-.u-social-icons-1 {
-   height: 50px;
-   min-height: 16px;
-   min-width: 110px;
-   margin: 31px auto 41px;
+/*Portfolio Table*/
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   width: 40%;
+}
+
+.card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+   padding: 2px 16px;
+}
+
+/*Container Table*/
+.profile {
+   border-style: solid;
+   font-size: 1.25rem;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 700;
+   margin: 60px auto;
+   padding: 20px 63px 20px 61px;
+   border-width: 2px;
+}
+
+.profile:hover {
+   background-color: white;
+   color: black;
+}
+
+a:hover {
+   color: black;
+}
+
+table {
+   border-spacing: 50px;
+}
+
+.profile-table {
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.profile-images {
+   height: 200px;
+   width: 100%;
+   object-fit: cover;
+   display: block;
+   border-radius: 50px;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: white;
+}
+
+li {
+   float: right;
+}
+
+li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: gray;
 }
